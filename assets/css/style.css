@@ -1,0 +1,63 @@
+/* Nutze die Website Google Fonts
+Nutze die Schriften: 'Chelsea Market', 'Fredoka One', 'Pacifico', 'Press Start 2P'
+Kopiere dir den <link> oder @import und füge ihn in deinem <head>/ style.css datei ein und füge die Font-Family in dem entsprechenden Selektor hinzu                         
+HTML befindet sich im Kommentarbereich
+Background farben: lime
+Verwendete CSS Befehle: font-size, background, line-height, text-align, font-size, text-shadow, text-decoration */
+
+@font-face {
+    font-family: Chelsea;
+    src: url("../fonts/Chelsea_Market/ChelseaMarket-Regular.ttf");
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url("../fonts/Fredoka_One/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url("../fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: Press;
+    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+
+h1 {
+    background: lime;
+    text-align: center;
+    font-family: Press;
+    padding: 15px 20px;
+    line-height: 1.2em;
+}
+
+p {
+    font-family: Chelsea;
+    line-height: 1.5em;
+}
+
+em {
+    font-family: Pacifico;
+    text-shadow: 2px -2px red;
+}
+
+strong {
+    font-family: Fedoka;
+    font-size: .7em;
+}
+
+a {
+    font-family: Fredoka;
+    text-decoration: none;
+    color: black;
+    font-size: .7em;
+}
+
+
+
+
+
+
+
